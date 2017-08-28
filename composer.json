@@ -30,6 +30,32 @@
     {
       "type": "composer",
       "url": "https://wpackagist.org"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "emwe5/wpmw",
+        "version": "1.0.0",
+        "type": "wordpress-theme",
+        "source": {
+          "url": "https://github.com/EmWe5/wpmw",
+          "type": "git",
+          "reference": "master"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "emwe5/wpmw-dev",
+        "version": "1.0.0",
+        "type": "wordpress-theme",
+        "source": {
+          "url": "https://github.com/EmWe5/wpmw-dev",
+          "type": "git",
+          "reference": "master"
+        }
+      }
     }
   ],
   "require": {
@@ -38,7 +64,9 @@
     "vlucas/phpdotenv": "^2.0.1",
     "johnpbloch/wordpress": "4.8.1",
     "oscarotero/env": "^1.1.0",
-    "roots/wp-password-bcrypt": "1.0.0"
+    "roots/wp-password-bcrypt": "1.0.0",
+    "emwe5/wpmw": "^1.0",
+    "emwe5/wpmw-dev": "^1.0"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2"

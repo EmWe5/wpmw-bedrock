@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "57adf83096ae495eea7573a0c52f8a03",
+    "content-hash": "1e5c05cdf0bc1610373d536393f6dec1",
     "packages": [
         {
             "name": "composer/installers",
@@ -122,6 +122,26 @@
                 "zikula"
             ],
             "time": "2017-08-09T07:53:48+00:00"
+        },
+        {
+            "name": "emwe5/wpmw",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/EmWe5/wpmw",
+                "reference": "master"
+            },
+            "type": "wordpress-theme"
+        },
+        {
+            "name": "emwe5/wpmw-dev",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/EmWe5/wpmw-dev",
+                "reference": "master"
+            },
+            "type": "wordpress-theme"
         },
         {
             "name": "johnpbloch/wordpress",
